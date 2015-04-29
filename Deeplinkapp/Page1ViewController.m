@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  Page1ViewController.m
 //  Deeplinkapp
 //
 //  Created by Jared McFarland on 4/29/15.
 //  Copyright (c) 2015 Jared McFarland. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Page1ViewController.h"
 
-@interface ViewController ()
+@interface Page1ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation Page1ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,14 +22,9 @@
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-50, self.view.frame.size.height/2-15, 100, 30)];
     [label setTextColor:[UIColor blackColor]];
     [label setTextAlignment:NSTextAlignmentCenter];
-    [label setText:@"Home"];
+    [label setText:@"Page 1"];
     
     [self.view addSubview:label];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

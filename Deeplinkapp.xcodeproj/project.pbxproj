@@ -14,6 +14,8 @@
 		172862941AF14720006054B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172862931AF14720006054B9 /* Images.xcassets */; };
 		172862971AF14720006054B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172862951AF14720006054B9 /* LaunchScreen.xib */; };
 		172862A31AF14720006054B9 /* DeeplinkappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 172862A21AF14720006054B9 /* DeeplinkappTests.m */; };
+		172862AE1AF1475B006054B9 /* Page1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172862AD1AF1475B006054B9 /* Page1ViewController.m */; };
+		172862B11AF14765006054B9 /* Page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172862B01AF14765006054B9 /* Page2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		1728629C1AF14720006054B9 /* DeeplinkappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeplinkappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		172862A11AF14720006054B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		172862A21AF14720006054B9 /* DeeplinkappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeeplinkappTests.m; sourceTree = "<group>"; };
+		172862AC1AF1475B006054B9 /* Page1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1ViewController.h; sourceTree = "<group>"; };
+		172862AD1AF1475B006054B9 /* Page1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1ViewController.m; sourceTree = "<group>"; };
+		172862AF1AF14765006054B9 /* Page2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2ViewController.h; sourceTree = "<group>"; };
+		172862B01AF14765006054B9 /* Page2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 			children = (
 				1728628A1AF14720006054B9 /* AppDelegate.h */,
 				1728628B1AF14720006054B9 /* AppDelegate.m */,
+				172862AC1AF1475B006054B9 /* Page1ViewController.h */,
+				172862AD1AF1475B006054B9 /* Page1ViewController.m */,
+				172862AF1AF14765006054B9 /* Page2ViewController.h */,
+				172862B01AF14765006054B9 /* Page2ViewController.m */,
 				1728628D1AF14720006054B9 /* ViewController.h */,
 				1728628E1AF14720006054B9 /* ViewController.m */,
 				172862901AF14720006054B9 /* Main.storyboard */,
@@ -220,8 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1728628F1AF14720006054B9 /* ViewController.m in Sources */,
+				172862AE1AF1475B006054B9 /* Page1ViewController.m in Sources */,
 				1728628C1AF14720006054B9 /* AppDelegate.m in Sources */,
 				172862891AF14720006054B9 /* main.m in Sources */,
+				172862B11AF14765006054B9 /* Page2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
